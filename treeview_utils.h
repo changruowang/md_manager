@@ -1,6 +1,0 @@
-#ifndef TREEVIEW_UTILS_H
-#define TREEVIEW_UTILS_H
-
-
-
-#endif // TREEVIEW_UTILS_H
