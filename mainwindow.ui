@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>363</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="tabletTracking">
+   <bool>false</bool>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>md快捷工具</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="my_resources.qrc">
+    <normaloff>:/myImages/icon/MD-logo.png</normaloff>:/myImages/icon/MD-logo.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>60</width>
+    <height>30</height>
+   </size>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="allowedAreas">
+    <set>Qt::AllToolBarAreas</set>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextBesideIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="separator"/>
+   <addaction name="action_fresh"/>
+   <addaction name="action_upload"/>
+   <addaction name="separator"/>
+   <addaction name="action_sets"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="action_upload">
+   <property name="icon">
+    <iconset resource="my_resources.qrc">
+     <normaloff>:/myImages/icon/pngsucai_872012_f56589.png</normaloff>:/myImages/icon/pngsucai_872012_f56589.png</iconset>
+   </property>
+   <property name="text">
+    <string>编译同步</string>
+   </property>
+   <property name="toolTip">
+    <string>同步到github</string>
+   </property>
+  </action>
+  <action name="action_sets">
+   <property name="icon">
+    <iconset resource="my_resources.qrc">
+     <normaloff>:/myImages/icon/pngsucai_3421655_1b276b.png</normaloff>:/myImages/icon/pngsucai_3421655_1b276b.png</iconset>
+   </property>
+   <property name="text">
+    <string>参数设置</string>
+   </property>
+   <property name="toolTip">
+    <string>参数设置</string>
+   </property>
+  </action>
+  <action name="action_fresh">
+   <property name="icon">
+    <iconset resource="my_resources.qrc">
+     <normaloff>:/myImages/icon/pngsucai_2765333_b5b553.png</normaloff>:/myImages/icon/pngsucai_2765333_b5b553.png</iconset>
+   </property>
+   <property name="text">
+    <string>更新引用</string>
+   </property>
+   <property name="toolTip">
+    <string>更新引用</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="my_resources.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>itemSelected()</slot>
+ </slots>
+</ui>

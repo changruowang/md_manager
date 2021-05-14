@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/myImages">
+        <file>icon/pngsucai_790781_bd0fb6.png</file>
+        <file>icon/pngsucai_872012_f56589.png</file>
+        <file>icon/pngsucai_1321890_5db8f0.png</file>
+        <file>icon/pngsucai_1553324_620c7a.png</file>
+        <file>icon/pngsucai_2765333_b5b553.png</file>
+        <file>icon/pngsucai_3421655_1b276b.png</file>
+        <file>icon/upload.png</file>
+        <file>icon/398d09a516a74e42b07d68f41671602f.png</file>
+        <file>icon/MD-logo.png</file>
+        <file>icon/unnamed.png</file>
+        <file>icon/images.png</file>
+        <file>icon/823VYYdPvJ.png</file>
+        <file>icon/123.png</file>
+    </qresource>
+</RCC>
